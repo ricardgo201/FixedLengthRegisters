@@ -20,6 +20,26 @@ void Character::setUsername(const QString &value)
     username = value;
 }
 
+QString Character::getRaceStr() const
+{
+    return raceStr;
+}
+
+void Character::setRaceStr(const QString &value)
+{
+    raceStr = value;
+}
+
+Races Character::getRace() const
+{
+    return race;
+}
+
+void Character::setRace(const Races &value)
+{
+    race = value;
+}
+
 QString Character::getRace() const
 {
     return race;
