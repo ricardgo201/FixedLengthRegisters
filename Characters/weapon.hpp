@@ -13,8 +13,8 @@ public:
         DAGUES
     };
     Weapon();
-    Type getType() const;
-    void setType(const Type &value);
+    Types getType() const;
+    void setType(const Types &value);
 
     QString getName() const;
     void setName(const QString &value);
